@@ -1,0 +1,22 @@
+{
+  "name": "tts-nemesis-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle:game": "luabundler bundle src/game.lua -o build/game.tts.lua -p \"src/?/?.lua\" -p \"src/?.lua\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShakMR/TTS-nemesis-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShakMR/TTS-nemesis-scripts/issues"
+  },
+  "homepage": "https://github.com/ShakMR/TTS-nemesis-scripts#readme",
+  "dependencies": {
+    "luabundler": "^1.2.2"
+  }
+}

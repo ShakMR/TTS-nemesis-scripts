@@ -1,0 +1,18 @@
+RoomDealer = {
+    tags = {
+        l1 = {
+            slots = "r1",
+            deck = "r1Stack"
+        },
+        l2 = {
+            slots = "r2",
+            deck = "r2Stack"
+        }
+    },
+}
+
+function RoomDealer::new() {
+    
+}
+
+function RoomsCollection:
